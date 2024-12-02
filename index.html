@@ -1,18 +1,95 @@
-## Python教程
-### 主页
-https://shaoxunyuan.github.io/Python/
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python教程</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 如果有样式文件，可以在这里链接 -->
+</head>
+<body>
+    <h1>Python教程</h1>
+    <nav>
+        <h2>目录</h2>
+        <ul>
+            <li><a href="#overview">概述</a></li>
+            <li><a href="#installation">Python环境安装</a></li>
+            <li><a href="#basics">Python基础语法</a></li>
+            <li><a href="#data-types">数据类型与变量</a></li>
+            <li><a href="#control-structures">控制结构</a></li>
+            <li><a href="#functions">函数与模块</a></li>
+            <li><a href="#file-handling">文件操作</a></li>
+            <li><a href="#libraries">常用库介绍</a></li>
+        </ul>
+    </nav>
 
-</head>  
-<body>  
-    <nav>  
-        <h2>Content</h2>  
-        <ul>  
-            <li><a href="#overview">Overview</a></li>  
-            <li><a href="#download">Download Full-length circRNA Data</a></li>  
-            <li><a href="#detection">Detect circRNA from RNA-seq Data</a></li>  
-            <li><a href="#reference">Construct Reference Library</a></li>  
-            <li><a href="#completion">Complete Partial circRNA</a></li>  
-            <li><a href="#integration">Integrate Blood circRNA Data</a></li>  
-            <li><a href="#annotation">Annotate circRNA</a></li>  
-        </ul>  
-    </nav>  
+    <section id="overview">
+        <h2>概述</h2>
+        <p>Python是一种广泛使用的高级编程语言，具有简单易学、功能强大等优点，适用于Web开发、数据分析、人工智能等多个领域。</p>
+    </section>
+
+    <section id="installation">
+        <h2>Python环境安装</h2>
+        <p>要开始学习Python，你需要在你的计算机上安装Python环境。可以从<a href="https://www.python.org/downloads/">Python官网</a>下载最新版本。</p>
+    </section>
+
+    <section id="basics">
+        <h2>Python基础语法</h2>
+        <p>Python程序由代码行组成，使用缩进表示代码块。以下是一个简单的例子：</p>
+        <pre>
+def hello_world():
+    print("Hello, World!")
+        </pre>
+    </section>
+
+    <section id="data-types">
+        <h2>数据类型与变量</h2>
+        <p>Python支持多种数据类型，包括整数、浮点数、字符串、列表、元组等。在Python中，变量不需要声明类型：</p>
+        <pre>
+x = 10       # 整数
+y = 3.14     # 浮点数
+name = "Alice" # 字符串
+        </pre>
+    </section>
+
+    <section id="control-structures">
+        <h2>控制结构</h2>
+        <p>控制结构用于控制代码执行的流向，包括条件语句和循环语句，例如：</p>
+        <pre>
+if x > 5:
+    print("x大于5")
+else:
+    print("x小于或等于5")
+
+for i in range(5):
+    print(i)
+        </pre>
+    </section>
+
+    <section id="functions">
+        <h2>函数与模块</h2>
+        <p>函数用于封装代码逻辑，模块用于组织代码。你可以使用`import`语句导入模块:</p>
+        <pre>
+def add(a, b):
+    return a + b
+        </pre>
+    </section>
+
+    <section id="file-handling">
+        <h2>文件操作</h2>
+        <p>Python支持文件的读写操作，可以使用`open`函数打开文件：</p>
+        <pre>
+with open('file.txt', 'r') as file:
+    data = file.read()
+        </pre>
+    </section>
+
+    <section id="libraries">
+        <h2>常用库介绍</h2>
+        <p>Python有丰富的第三方库，如NumPy、Pandas、Requests等，可以帮助你轻松完成各种任务。</p>
+    </section>
+
+    <footer>
+        <p>更多信息请访问：<a href="https://www.python.org/">Python官网</a></p>
+    </footer>
+</body>
+</html>
